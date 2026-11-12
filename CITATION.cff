@@ -3,15 +3,7 @@ message: "If you use this code, please cite the paper; its reference will be add
 title: "Code and data for: Privacy-preserving coordination and settlement of residential virtual power plants via secure aggregation"
 type: software
 authors:
-  - family-names: Huang
-    given-names: Jianbo
-    affiliation: "Vrije Universiteit Brussel"
-  - family-names: De Cauwer
-    given-names: Cedric
-    affiliation: "Vrije Universiteit Brussel"
-  - family-names: Braeken
-    given-names: An
-    affiliation: "Vrije Universiteit Brussel"
+ 
 license: MIT
 repository-code: "https://github.com/KimboWong/VPP-ZSM"
 version: paper-v1
