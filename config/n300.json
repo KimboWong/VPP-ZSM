@@ -1,0 +1,23 @@
+{
+  "prosumer_file": "prosumers300.xlsx",
+  "price_file": "VPP_data.xlsx",
+  "price_scale": 0.001,
+  "horizon": 24,
+  "delta_t_hours": 1.0,
+  "eta_charge": 0.95,
+  "eta_discharge": 0.95,
+  "degradation_cost": 0.01,
+  "pi_peak": 0.5,
+  "soc_init_fraction": 0.2,
+  "indoor_init_c": 25.0,
+  "solver": "GUROBI",
+  "eps_rel": 0.0003,
+  "k_max": 1000,
+  "admm_rho": 1.2,
+  "prox_weight_prosumer": 0.4,
+  "prox_weight_vpp": 0.0025,
+  "dual_step": 0.00033333,
+  "subgradient_step0": 5e-05,
+  "subgradient_decay": "sqrt",
+  "init_price": "midprice"
+}
